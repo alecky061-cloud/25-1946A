@@ -17,3 +17,90 @@ table {
 table th, table td {
   padding: 10px;
 }
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;   /* dark background */
+  color: #eee;              /* light text */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  background-color: #00ffcc;
+  color: #111;
+  padding: 20px;
+}
+
+h2 {
+  color: #00ffcc;
+  margin-top: 40px;
+}
+
+/* Navigation menu */
+ul {
+  list-style-type: none;
+  background-color: #222;
+  padding: 10px;
+}
+
+ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+ul li a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  margin: 10px;
+  border: 2px solid #00ffcc;
+  border-radius: 8px;
+}
+
+/* Videos */
+iframe {
+  margin: 20px auto;
+  display: block;
+  border: 3px solid #00ffcc;
+  border-radius: 10px;
+}
+
+/* Tables */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+table th, table td {
+  border: 1px solid #00ffcc;
+  padding: 10px;
+}
+
+table th {
+  background-color: #00ffcc;
+  color: #111;
+}
+
+table td {
+  background-color: #222;
+}
+
+/* Lists */
+ol, ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+<link rel="stylesheet" href="style.css">
